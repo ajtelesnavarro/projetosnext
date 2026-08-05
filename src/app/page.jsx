@@ -7,12 +7,7 @@ export default function Home() {
       <header>
         <div className="menu_direita">
           <a href="#">
-            <Image
-              src="https://placehold.co/300x100/png"
-              alt="Logo"
-              width={300}
-              height={100}
-            />
+            <img src="/imagens/logo.png" alt="Logo" className="logo" />
           </a>
         </div>
         <div className="menu_esquerda">
