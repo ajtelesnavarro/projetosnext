@@ -1,0 +1,81 @@
+.contato_tela_principal {
+    padding: 80px 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato_tela_principal_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato_tela_principal_texto h1 {
+    font-size: 50px;
+    font-family: Geist Sans, sans-serif;
+}
+
+.contato_tela_principal_texto h2 {
+    font-size: 18px;
+    font-family: Geist Sans, sans-serif;
+    font-weight: normal;
+}
+
+.contato_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato_form_container {
+    max-width: 1000px;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 20px;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    width: 300px;
+}
+
+.botao_enviar {
+    background-color: #023e8a;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.botao_enviar:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.contato_form_linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.contato_form_campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

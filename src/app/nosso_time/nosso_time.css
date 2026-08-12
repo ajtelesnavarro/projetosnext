@@ -1,0 +1,83 @@
+.nosso_time_tela_principal {
+    padding: 80px 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosso_time_tela_principal_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nosso_time_tela_principal_texto h1 {
+    font-size: 50px;
+    font-family: Geist Sans, sans-serif;
+}
+
+.nosso_time_tela_principal_texto h2 {
+    font-size: 18px;
+    font-family: Geist Sans, sans-serif;
+    font-weight: normal;
+}
+
+.nosso_time_cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosso_time_cards_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.nosso_time_card {
+    background-color: rgba(255, 255, 255, 0.23);
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.nosso_time_card:hover {
+    transform: scale(1.03)
+    translateY(-2px);
+}
+
+.nosso_time_card_texto {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 15px;
+}
+
+.nosso_time_card_texto_titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    font-family: Geist Sans, sans-serif;
+}
+
+.nosso_time_card_texto_subtitulo {
+    font-family: Geist Sans, sans-serif;
+    font-size: 18px;
+}
+
+.nosso_time_card_texto_titulo_imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

@@ -1,0 +1,77 @@
+.sobre_tela_principal {
+    padding: 80px 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre_tela_principal_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sobre_tela_principal_texto h1 {
+    font-size: 50px;
+    font-family: Geist Sans, sans-serif;
+}
+
+.sobre_tela_principal_texto h2 {
+    font-size: 18px;
+    font-family: Geist Sans, sans-serif;
+    font-weight: normal;
+}
+
+.sobre_cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_cards_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sobre_card {
+    background-color: rgba(255, 255, 255, 0.23);
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.sobre_card:hover {
+    transform: scale(1.03)
+    translateY(-2px);
+}
+
+.sobre_card_texto {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 15px;
+}
+
+.sobre_card_texto_titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    font-family: Geist Sans, sans-serif;
+}
+
+.sobre_card_texto_subtitulo {
+    font-family: Geist Sans, sans-serif;
+    font-size: 18px;
+}

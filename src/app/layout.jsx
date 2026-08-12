@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,38 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <header>
+          <div className="menu_direita">
+            <a href="#">
+              <img src="/imagens/logo.png" alt="Logo" className="logo" />
+            </a>
+          </div>
+          <div className="menu_esquerda">
+            <ul>
+              <li><Link href={"/"}>WHAT WE DO
+                <span className="material-symbols-outlined">
+                  arrow_drop_down
+                </span></Link>
+              </li>
+              <li><Link href={"/"}>BLOG</Link></li>
+              <li><Link href={"/"}>PODCAST</Link></li>
+              <li><Link href={"/"}>CAREERS</Link></li>
+              <li><Link href={"/"} className="btn_menu">WORK WITH US</Link></li>
+            </ul>
+          </div>
+        </header>
+        {children}
+        <footer>
+          <h3>@ Tier Eleven - 2026. Todos os direitos reservados.</h3>
+          <ul>
+            <li><Link href={"/sobre"} className="menu_footer">Sobre</Link></li>
+            <li><Link href={"/nosso_time"} className="menu_footer">Nosso Time</Link></li>
+            <li><Link href={"/contato"} className="menu_footer">Work with Us</Link></li>
+          </ul>
+        </footer>
+      </body>
+
     </html>
   );
 }

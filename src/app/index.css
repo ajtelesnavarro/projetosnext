@@ -1,0 +1,63 @@
+.btn_menu_maior {
+  padding: 25px 45px;
+  font-size: 18px;
+  background-color: #ff5c8a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.tela_principal {
+  padding: 80px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tela_principal_cta {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tela_principal_cta_esquerda {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.tela_principal_cta_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.tela_principal_cta_texto h1 {
+  font-size: 50px;
+}
+
+.tela_principal_cta_texto h2,
+.tela_principal_tecnologias_item h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.tela_principal_tecnologias {
+  padding: 0 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

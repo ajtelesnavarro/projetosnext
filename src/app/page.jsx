@@ -1,29 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+import "./index.css";
 
 export default function Home() {
   return (
     <>
-      <header>
-        <div className="menu_direita">
-          <a href="#">
-            <img src="/imagens/logo.png" alt="Logo" className="logo" />
-          </a>
-        </div>
-        <div className="menu_esquerda">
-          <ul>
-            <li><a href="#">WHAT WE DO
-              <span className="material-symbols-outlined">
-                arrow_drop_down
-              </span></a>
-            </li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">PODCAST</a></li>
-            <li><a href="#">CAREERS</a></li>
-            <li><a href="#" className="btn_menu">WORK WITH US</a></li>
-          </ul>
-        </div>
-      </header>
       <section className="tela_principal">
         <div className="tela_principal_cta">
           <div className="tela_principal_cta_esquerda">
@@ -32,7 +14,7 @@ export default function Home() {
               <h2>Facebook Premier Level Partner Agency</h2>
             </div>
             <div className="tela_principal_cta_botao">
-              <a href="#" className="btn_menu_maior">WORK WITH US</a>
+              <Link href={"/"} className="btn_menu_maior">WORK WITH US</Link>
             </div>
           </div>
           <div className="tela_principal_cta_direita">
