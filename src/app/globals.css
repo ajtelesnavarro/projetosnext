@@ -84,3 +84,21 @@ footer {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.container-notfound {
+  width: 70vw;
+  margin: auto;
+}
+
+.flex-notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.face{
+  width: 300px;
+  height: auto;
+}

@@ -1,0 +1,22 @@
+.container-cta-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    background-color: darkred;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.container-cta-fluid p {
+    max-width: 50vw;
+}
+
+.button-cta {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 25px;
+}

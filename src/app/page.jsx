@@ -2,8 +2,18 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import "./index.css";
+import BannerCTA from "@/components/bannerCTA";
 
-export default function Home() {
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+export default async function Home() {
+
+  await sleep(3500);
+
+  // throw new Error("Simulando um ERRO CATASTROFICO");
+
+
+
   return (
     <>
       <section className="tela_principal">
@@ -83,6 +93,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <BannerCTA/>
     </>
   );
 }
