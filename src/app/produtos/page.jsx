@@ -1,3 +1,5 @@
+import CardProduto from "@/components/cardProduto";
+
 export default function Produtos(){
 
     const listaProdutos = [
@@ -38,6 +40,14 @@ export default function Produtos(){
             <h1>Página de listagem de produtos</h1>
 
             {/* aqui card produto aqui */}
+            {listaProdutos.map(produto => {
+                return <CardProduto 
+                titulo={produto.titulo}
+                descricao={produto.descricao}
+                imagem={produto.imagem}
+                preco={produto.preco}
+                 />
+            })} {/*executa cada lista dentro do listaprodutos */}
         </>
     )
 }
