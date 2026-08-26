@@ -1,4 +1,4 @@
-import"./cardProduto.css"
+import "./cardProduto.css"
 
 export default function CardProduto({
     titulo,
