@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./contador.css";
 
 export default function Contador() {
@@ -16,6 +16,12 @@ export default function Contador() {
         setContador(contador - 1);
     }
 
+    useEffect(() => {
+        console.log(contador)
+    }, [contador]);
+
+    //aqui so vai dar console.log quando o contador mudar
+
         return (
             <div className="contador_tela_principal">
                 <h1>Desenvolvendo um contador</h1>
@@ -25,7 +31,7 @@ export default function Contador() {
                     <button type="button" onClick={subtrairUmContador} >-</button>
                 </div>
                 {contador == -5 && <p>AUMENTAAAAAA</p>}
-                {contador == 10 && <p>DIMINUIIIIIII</p>}
+                {contador == 100 && <p>DIMINUIIIIIII</p>}
             </div>
         )
 
