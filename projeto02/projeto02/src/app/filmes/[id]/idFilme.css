@@ -1,0 +1,86 @@
+body {
+    color: whitesmoke;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-filme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-geral img{
+    width: 400px;
+    height: auto;
+    border: 1px solid darkred;
+    transition: box-shadow 0.3s ease;
+}
+
+.info-geral img:hover{
+    box-shadow: 5px 5px 10px rgba(139, 0, 0, 0.3);
+}
+
+.filme-titulo{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+}
+
+.filme-titulo h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.filme-diretores{
+    font-weight: bold;
+}
+
+.info-especificacoes{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 30px;
+}
+
+.filme-titulo-principal{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.filme-genero{
+    background-color: darkred;
+    padding: 7px 11px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.filme-titulo-tags{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filme-titulo-tag{
+    padding: 7px 12px;
+    background-color: darkred;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filme-detalhes h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
