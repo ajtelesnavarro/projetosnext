@@ -24,8 +24,9 @@ export default function Produtos() {
             {listaProdutos.length > 0 ? 
                 <div className="card-produtos-grid">
                     {listaProdutos.map((idx)=>{
+                        
                         const slug = produto.title.toLowerCase();
-                        slug = slug.replace()
+                        slug = slug.replace(" ", "-")
                         return <CardProduto key={idx.id} produto={idx}/>
                     })}
                 </div>
