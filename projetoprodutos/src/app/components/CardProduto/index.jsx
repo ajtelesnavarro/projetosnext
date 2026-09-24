@@ -7,7 +7,7 @@ export default function CardProduto({ produto }){
                 <img src={produto.images[0]}/>
                 <h1>{produto.title}</h1>
             </div>
-            <a href="/[title]">Saiba Mais</a>
+            <a href="/produtos/[title]">Saiba Mais</a>
         </div>
     )
 }
