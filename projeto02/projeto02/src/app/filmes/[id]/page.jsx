@@ -44,10 +44,11 @@ export default function Filme() {
                             {filme.sinopse}
                         </h2>
                         <div className="filme-detalhes-elenco">
+                            <br/><h1>Elenco Principal:</h1>
                             <h2>
                                 {filme.elenco.map((ator) => (
                                     <p key={ator.nome}>
-                                        {ator.nome} — {ator.personagem}
+                                        {ator.nome}, como {ator.personagem}
                                     </p>
                                 ))}
                             </h2>
@@ -55,6 +56,7 @@ export default function Filme() {
 
                     </div>
 
+                    <a href="/filmes" className="botao-voltar">Voltar</a>
                 </div>
             </div>}
         </main>

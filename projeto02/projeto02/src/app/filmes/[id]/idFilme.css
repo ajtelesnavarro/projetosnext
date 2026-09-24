@@ -54,33 +54,69 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
 }
 
+.filme-titulo-principal h1 {
+    display: flex;
+    max-width: 60%;
+}
+.filme-titulo-principal h2{
+    max-width: 40%;
+}
+
 .filme-genero{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
     background-color: darkred;
     padding: 7px 11px;
     border-radius: 15px;
     font-weight: bold;
 }
 
-.filme-titulo-tags{
+.filme-titulo-tags {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .filme-titulo-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 7px 12px;
     background-color: darkred;
     border-radius: 15px;
     text-transform: capitalize;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
 }
 
 .filme-detalhes h2{
     font-size: 20px;
     font-weight: lighter;
+}
+
+.filme-detalhes-elenco h1{
+    font-size: 22px;
+}
+
+.botao-voltar{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    width: 120px;
+    padding: 7px 10px;
+    background-color: whitesmoke;
+    color: darkred;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
 }
