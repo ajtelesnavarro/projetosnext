@@ -9,12 +9,8 @@ Uma aplicação web moderna desenvolvida com **Next.js** para gerenciamento e ex
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Recursos e Funcionalidades](#-recursos-e-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Estrutura de Pastas](#-estrutura-de-pastas)
-- [Pré-requisitos](#-pré-requisitos)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
 - [Scripts Disponíveis](#-scripts-disponíveis)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
 
 ---
 
