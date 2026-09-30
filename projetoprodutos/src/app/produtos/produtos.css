@@ -1,0 +1,11 @@
+.card-produtos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px 90px;
+    justify-items: center;
+}
+
+body{
+    background-color: #fefefe;
+}
