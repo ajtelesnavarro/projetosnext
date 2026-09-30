@@ -25,7 +25,7 @@ O **Projeto Produtos** é uma aplicação construída dentro do monorepo/reposit
 
 ---
 
-## ✨ Recursos e Funcionalidades
+## Recursos e Funcionalidades
 
 - **Catálogo de Produtos:** Listagem dinâmica com cards informativos (nome, imagem, preço, categoria).
 - **Detalhes do Produto:** Página dinâmica (`/produtos/[id]`) exibindo especificações e descrição completa do item.
@@ -34,7 +34,7 @@ O **Projeto Produtos** é uma aplicação construída dentro do monorepo/reposit
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **[React](https://reactjs.org/)** — Biblioteca principal para a interface do usuário.
 - **[Next.js](https://nextjs.org/)** — Framework React com suporte a SSR/SSG e navegação otimizada.
@@ -44,7 +44,7 @@ O **Projeto Produtos** é uma aplicação construída dentro do monorepo/reposit
 
 ---
 
-## ⚙️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clone o repositório principal:**
    ```bash
@@ -59,19 +59,11 @@ O **Projeto Produtos** é uma aplicação construída dentro do monorepo/reposit
 3. **Instale as dependências:**
    ```bash
    npm install
-   # ou
-   yarn install
-   # ou
-   pnpm install
    ```
 
 4. **Inicie o servidor de desenvolvimento:**
    ```bash
    npm run dev
-   # ou
-   yarn dev
-   # ou
-   pnpm dev
    ```
 
 5. **Acesse no navegador:**
@@ -79,7 +71,7 @@ O **Projeto Produtos** é uma aplicação construída dentro do monorepo/reposit
 
 ---
 
-## 📜 Scripts Disponíveis
+## Scripts Disponíveis
 
 No diretório `projetoprodutos`, você pode executar os seguintes comandos:
 
